@@ -1,0 +1,18 @@
+{
+  "name": "tekken-code-image-web",
+  "version": "1.0.0",
+  "description": "Web app that converts Tekken fighting game notation DSL into SVG images",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs --production",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.0",
+    "typescript": "^5.4.0"
+  },
+  "dependencies": {
+    "chevrotain": "^11.0.0"
+  }
+}
