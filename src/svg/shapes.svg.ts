@@ -1,5 +1,5 @@
 // src/svg/shapes.svg.ts
-export default `<svg
+const embeddedShapesSvg = `<svg
    width="640"
    height="128"
    version="1.1"
@@ -57,3 +57,5 @@ export default `<svg
      id="arrow-right"
      d="M -1.9975,-8.0003 H -14.003 V 8 H -1.9975 V 16 L 14.003,-2.8269e-4 -1.9975,-16 Z"
      style="fill:#ffffff;stroke:#a3a3a3;stroke-width:4;stroke-linejoin:round;stroke-dasharray:none" /></svg>`
+
+export default embeddedShapesSvg;

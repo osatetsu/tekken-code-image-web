@@ -3,7 +3,7 @@ import { generateSvg, generateErrorSvg } from "./svg/generator";
 import { renderSvg } from "./svg/render";
 import { extractShapeDefinitions, type ShapeDefinitions } from "./svg/shapes";
 // ?raw を使わず、shapes.svg の中身を文字列として直接 import する
-import embeddedShapesSvg from "./shapes.svg";
+import embeddedShapesSvg from "./svg/shapes.svg";
 import { loadSettings } from "./settings/settings";
 import type { Settings } from "./types";
 
